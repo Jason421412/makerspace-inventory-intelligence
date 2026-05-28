@@ -156,6 +156,12 @@ makerspace-inventory-intelligence/
     `-- test_search.py
 ```
 
+## Documentation
+
+- [Architecture](docs/architecture.md) explains the package modules, CLI flow, data flow, dashboard, and tests.
+- [Design decisions](docs/decisions.md) explains the CLI-first approach, sanitized sample data, issue ranking, duplicate detection, and visualization choices.
+- [Data privacy](docs/data-privacy.md) documents what should and should not be committed to a public data tooling repository.
+
 ## How To Run Tests
 
 ```bash
