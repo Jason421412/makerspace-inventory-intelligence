@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "makerspace-inventory-intelligence"
+version = "0.1.0"
+description = "A CLI and analytics toolkit for cleaning, searching, and auditing makerspace inventory records."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Xu Jiachen" }]
+dependencies = []
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.8"]
+dev = []
+
+[project.scripts]
+makerspace-inventory = "makerspace_inventory.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
